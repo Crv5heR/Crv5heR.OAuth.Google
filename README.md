@@ -40,14 +40,6 @@ GoogleAuthResponse googleAuthResponse =
 - The `Token` property in `GoogleAuthRequest` is the Bearer Token that you get from the frontend
 - The `GoogleAuthResponse` will contain the user's data if the token is valid
 
-# Exceptions
-|Exception|Reason|
-|--- |--- |--- |
-|FailedRequestException | Http Request Error|
-|InvalidTokenException | Invalid Token |
-|InvalidGoogleAuthRequestException | `GoogleAuthRequest` is null |
-|FailedGoogleServiceException| Google Service Error |
-
 # Packages that I used
 - [RESTFULSense](https://github.com/hassanhabib/RESTFulSense) by [HassanHabib](https://github.com/hassanhabib)
 - [Xeption](https://github.com/hassanhabib/Xeption) by [HassanHabib](https://github.com/hassanhabib)
