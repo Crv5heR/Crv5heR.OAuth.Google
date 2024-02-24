@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>YAGOA</Title>
+    <Authors>Mohammed Sayed</Authors>
+    <Company>Mohammed Sayed</Company>
+    <Description>Yet another Google OAuth Library</Description>
+    <PackageProjectUrl>https://github.com/Crv5heR/Crv5heR.OAuth.Google</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Crv5heR/Crv5heR.OAuth.Google</RepositoryUrl>
+    <PackageTags>oauth, google-oauth</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RESTFulSense" Version="2.17.0" />
+    <PackageReference Include="Xeption" Version="2.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
