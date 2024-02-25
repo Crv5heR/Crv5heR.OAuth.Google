@@ -11,6 +11,7 @@
     <Description>Yet another Google OAuth Library</Description>
     <PackageProjectUrl>https://github.com/Crv5heR/Crv5heR.OAuth.Google</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Crv5heR/Crv5heR.OAuth.Google</RepositoryUrl>
+	<Version>1.0.1</Version>
     <PackageTags>oauth, google-oauth</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
