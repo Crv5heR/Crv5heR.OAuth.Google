@@ -6,6 +6,6 @@ namespace Crv5heR.OAuth.Google.Models.Google.Exceptions
     {
         public InvalidAuthTokenException()
             : base(message: $"Invalid Bearer Token")
-        {}
+        { }
     }
 }
